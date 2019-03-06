@@ -12,12 +12,12 @@ class StatefulDemoState extends State<StatefulDemo>{
       title: 'Stateful Demo',
       home: new Scaffold(
           appBar: new AppBar(
-            title: new Text('Stateless Demo'),
+            title: new Text('Stateful Demo'),
           ),
           body: new Center(
             child: new Column(
               children: <Widget>[
-                new Text('This is my first stateless demo $counter'),
+                new Text('This is my first stateful demo $counter'),
                 new MaterialButton(onPressed: (){
                   setState(() {
                     counter++;
